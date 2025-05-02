@@ -27,7 +27,7 @@ std::string CustomItem::composeItem() {
     out << "Custom Size: " << size << "\n";
     out << "Toppings:\n";
     for (auto i = toppings.begin(); i != toppings.end(); i++) {
-        out << i->first << "s: " << i->second << " oz\n";
+        out << i->first << ": " << i->second << " oz\n";
     }
     out << "Price: $";
     out << std::fixed << std::setprecision(2) << price << "\n";

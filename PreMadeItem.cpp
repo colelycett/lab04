@@ -25,8 +25,8 @@ PreMadeItem::~PreMadeItem() {
 }
 std::string PreMadeItem::composeItem() {
     std::stringstream out;
-    out << "Pre-Made Size: " << size << "\n";
-    out << "Pre-Made Item: " << name << "\n";
+    out << "Pre-made Size: " << size << "\n";
+    out << "Pre-made Item: " << name << "\n";
     out << std::fixed << std::setprecision(2);
     out << "Price: $" << price << "\n";
     return out.str();
