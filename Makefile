@@ -1,8 +1,8 @@
 # Makefile
 
-CXX=clang++
+CXX=g++
 
-CXXFLAGS = -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wno-unused-private-field
+CXXFLAGS = --std=c++11 -Wall -Wextra -Wno-unused-parameter -Wno-unused-private-field
 
 BINARIES=testIceCreamOrder1 testIceCreamOrder2 testIceCreamOrder3 testIceCreamOrder4
 
